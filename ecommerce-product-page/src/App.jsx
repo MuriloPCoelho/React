@@ -795,7 +795,7 @@ function App() {
               Camiseta Original Sport Club - Masculina
             </h1>
             <div className="text-sm text-neutral-400 mb-6">REF.: C0SC14M</div>
-            <div className="sticky top-4">
+            <div className="sticky top-48">
               <div>
                 <div className="text-sm text-neutral-500 line-through font-semibold">
                   R$119,99
