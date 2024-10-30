@@ -4,7 +4,9 @@ function App() {
 
   return (
     <>
-      <Wizard />
+      <Wizard>
+        <div>Tests</div>
+      </Wizard>
     </>
   )
 }

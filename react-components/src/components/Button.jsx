@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Button({variant, children}) {
+export default function Button({variant, type, children}) {
 
   let baseStyle = 'px-4 py-2 cursor-pointer rounded-full active:bg-blue-950 active:text-white ';
 
@@ -19,6 +19,6 @@ export default function Button({variant, children}) {
   }
 
   return (
-    <div className={baseStyle}>{children}</div>
+    <button type={type} className={baseStyle}>{children}</button>
   )
 }
